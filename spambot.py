@@ -12,11 +12,11 @@ LOGS = getLogger(__name__)
 
 ADMIN = 1981793621 
 
-API_KEY = "13279560"
+API_KEY = "19593553"
 
-API_HASH = "96f17e90944f3ebe1049f7e1ff821e12"
+API_HASH = "0d9f962373fa07683fe81f4899044d8a"
 
-bot_token = "5054397688:AAHJK1fUdHjWqM31ACSe4r9TaSRwwoSC3e4"
+bot_token = "5041456480:AAFdEpsPf3XyOxci0yYnudEa6B4yUuYBcTw"
 
 Getter = None
 Number = None
