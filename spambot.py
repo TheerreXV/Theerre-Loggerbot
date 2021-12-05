@@ -249,9 +249,9 @@ async def callbackAIAQuery(e):
 		if e.data == b"back":
 			Getter = None
 			if SpamEnabled:
-				await e.edit("**🤖 Spammer Bot v1.3 🤖**\n\n__ℹ️ Stato Spam »__ **Attivo ✅**", buttons=[[Button.inline("❌ Stoppa", "stop"), Button.inline("Spammer 📞", "voip")], [Button.inline("⏱ Tempo", "timer"), Button.inline("Messaggio 💬", "messaggio")], [Button.inline("👥 Entra nei Gruppi 👥", "join")], [Button.url("⚙️Developer⚙️", "https://t.me/Ciro_Ruba_Rolex_x")]])
+				await e.edit("**🤖 Spammer Bot v1.3 🤖**\n\n__ℹ️ Stato Spam »__ **Attivo ✅**", buttons=[[Button.inline("❌ Stoppa", "stop"), Button.inline("Spammer 📞", "voip")], [Button.inline("⏱ Tempo", "timer"), Button.inline("Messaggio 💬", "messaggio")], [Button.inline("👥 Entra nei Gruppi 👥", "join")], [Button.url("⚙️Developer⚙️", "https://t.me/TheerreFUT")]])
 			else:
-				await e.edit("**🤖 Spammer Bot v1.3 🤖**\n\n__ℹ️ Stato Spam »__ **Non Attivo ❌**", buttons=[[Button.inline("✅ Avvia", "avvia"), Button.inline("Spammer 📞", "voip")], [Button.inline("⏱ Tempo", "timer"), Button.inline("Messaggio 💬", "messaggio")], [Button.inline("👥 Entra nei Gruppi 👥", "join")], [Button.url("⚙️Developer⚙️", "https://t.me/Ciro_Ruba_Rolex_x")]])
+				await e.edit("**🤖 Spammer Bot v1.3 🤖**\n\n__ℹ️ Stato Spam »__ **Non Attivo ❌**", buttons=[[Button.inline("✅ Avvia", "avvia"), Button.inline("Spammer 📞", "voip")], [Button.inline("⏱ Tempo", "timer"), Button.inline("Messaggio 💬", "messaggio")], [Button.inline("👥 Entra nei Gruppi 👥", "join")], [Button.url("⚙️Developer⚙️", "https://t.me/TheerreFUT")]])
 		elif e.data == b"voip":
 			Getter, Number, TempClient = None, None, None
 			await e.edit(f"__📞 VoIP Aggiunti »__ **{SSs.__len__()}**", buttons=[[Button.inline("➕ Aggiungi", "addvoip"), Button.inline("Gestisci 🔧", "voips")], [Button.inline("📁 Archiviati 📁", "arch")], [Button.inline("🔙 Indietro 🔙", "back")]])
