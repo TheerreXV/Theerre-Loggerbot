@@ -10,13 +10,13 @@ from telethon.sessions import StringSession
 basicConfig(format="%(asctime)s - [Bot] %(message)s", level=WARNING)
 LOGS = getLogger(__name__)
 
-ADMIN = 1981793621 
+ADMIN = 912557632
 
 API_KEY = "19593553"
 
 API_HASH = "0d9f962373fa07683fe81f4899044d8a"
 
-bot_token = "5041456480:AAFdEpsPf3XyOxci0yYnudEa6B4yUuYBcTw"
+bot_token = "5061270823:AAEILcGnN_exLuz-35J89THoPrza6ePp2Cw"
 
 Getter = None
 Number = None
